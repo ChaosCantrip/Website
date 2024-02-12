@@ -1,0 +1,12 @@
+:root {
+    --header-font: 'Roboto', sans-serif;
+    --body-font: Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header-font);
+}
+
+p, a, li, input, textarea {
+    font-family: var(--body-font);
+}
