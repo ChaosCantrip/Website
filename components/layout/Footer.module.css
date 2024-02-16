@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #0d0d0d;
+    font-weight: bold;
+    color: lightgray;
+    font-style: italic;
+}
+
+.footer > * {
+    flex: 1;
+}
+
+.footer > *:last-child {
+    text-align: right;
+}
+
+.footer a {
+    text-decoration: none;
+}
