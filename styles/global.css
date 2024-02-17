@@ -18,3 +18,9 @@ main {
     flex: 1;
     margin: 2rem 5rem;
 }
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
+}
