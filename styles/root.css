@@ -1,6 +1,21 @@
-:root {
-    --accent-color: #C04848;
-    --gradient-fallback: #C04848;
-    --gradient-browser-1: -webkit-linear-gradient(45deg, #480048, #C04848);
-    --gradient-browser-2: linear-gradient(45deg, #480048, #C04848);
+@media (prefers-color-scheme: light){
+    :root {
+        --accent-color: #BE93C5;
+        --gradient-fallback: #BE93C5;
+        --gradient-browser-1: -webkit-linear-gradient(45deg, #7BC6CC, #BE93C5);
+        --gradient-browser-2: linear-gradient(45deg, #7BC6CC, #BE93C5);
+        color: #000033;
+        background-color: #F5F5F5;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --accent-color: #C04848;
+        --gradient-fallback: #C04848;
+        --gradient-browser-1: -webkit-linear-gradient(45deg, #480048, #C04848);
+        --gradient-browser-2: linear-gradient(45deg, #480048, #C04848);
+        color: #F5F5F5;
+        background-color: #0f0f0f;
+    }
 }
