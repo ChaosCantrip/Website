@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto&display=swap");
 
 :root {
-    --header-font: "Righteous", sans-serif;
-    --body-font: Helvetica, Arial, sans-serif;
+    --header-font: "Kanit", sans-serif;
+    --body-font: "Roboto", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
