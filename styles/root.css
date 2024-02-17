@@ -1,3 +1,6 @@
 :root {
-    --accent-color: orangered;
+    --accent-color: #C04848;
+    --gradient-fallback: #C04848;
+    --gradient-browser-1: -webkit-linear-gradient(45deg, #480048, #C04848);
+    --gradient-browser-2: linear-gradient(45deg, #480048, #C04848);
 }
