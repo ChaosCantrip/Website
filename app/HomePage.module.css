@@ -1,0 +1,38 @@
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.top h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 1rem;
+}
+
+.top .name {
+    padding: 1rem;
+    background: var(--gradient-fallback);
+    background: var(--gradient-browser-1);
+    background: var(--gradient-browser-2);
+
+    border-radius: 1rem;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+    animation: nameAnim 1.5s;
+}
+
+@keyframes nameAnim {
+    0% {
+        filter: blur(10px);
+        opacity: 0;
+        border-radius: 3rem;
+    }
+    100% {
+        filter: blur(0);
+        opacity: 1;
+        border-radius: 1rem;
+    }
+}
