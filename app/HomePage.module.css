@@ -1,3 +1,12 @@
+.wrapper {
+    max-width: 80rem;
+    margin-inline: auto;
+    padding-inline: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .top {
     display: flex;
     justify-content: center;
@@ -9,7 +18,7 @@
 .top h1 {
     font-size: 3rem;
     text-shadow: 2px 2px 2px black;
-    margin-bottom: 1rem;
+    padding: 5rem;
 }
 
 .top .name {
