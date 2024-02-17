@@ -1,5 +1,7 @@
 .header {
-    background: var(--accent-color);
+    background: var(--gradient-fallback);
+    background: var(--gradient-browser-1);
+    background: var(--gradient-browser-2);
     padding: 1rem 2rem;
 }
 
