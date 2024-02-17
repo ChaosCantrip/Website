@@ -1,5 +1,5 @@
 .header {
-    background: orangered;
+    background: var(--accent-color);
     padding: 1rem 2rem;
 }
 
